@@ -7,7 +7,7 @@ fraud-detection/
 │   └── best_model.pt
 │
 ├── scripts/
-    |___ prepare_data.py
+    |__ prepare_data.py
 │   ├── train.py                      # Training script
 │   ├── inference.py                  # Prediction script
 │   └── dataset.py                    # Custom PyTorch Dataset
