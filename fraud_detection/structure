@@ -1,0 +1,21 @@
+fraud-detection/
+│
+├── data/
+│   └── creditcard.csv                # Dataset
+│
+├── models/
+│   └── best_model.pt
+│
+├── scripts/
+    |___ prepare_data.py
+│   ├── train.py                      # Training script
+│   ├── inference.py                  # Prediction script
+│   └── dataset.py                    # Custom PyTorch Dataset
+│
+├── api/
+│   ├── main.py                       # FastAPI endpoint
+│   └── model_handler.py              # Inference logic
+│
+├── requirements.txt
+├── Dockerfile                        # (Optional for deployment)
+└── README.md
