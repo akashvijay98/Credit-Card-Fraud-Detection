@@ -36,7 +36,7 @@ This project implements a machine learning solution for detecting fraudulent cre
     *(Note: A `requirements.txt` file is not provided. You will need to create one based on the imports in the project files.)*
 
 3.  **Download the dataset:**
-    - Download the "Credit Card Fraud Detection" dataset from Kaggle.
+    - Download the "Credit Card Fraud Detection" dataset from Kaggle : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud .
     - Place the `creditcard.csv` file in the `data/` directory.
 
 ## Usage
