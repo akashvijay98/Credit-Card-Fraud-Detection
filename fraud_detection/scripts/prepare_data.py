@@ -8,7 +8,7 @@ def prepare_and_save_data():
     print("Starting data preparation...")
 
     # Check if file exists
-    csv_path = "data/creditcard.csv"
+    csv_path = "fraud_detection/data/creditcard.csv"
     if not os.path.exists(csv_path):
         print(f"ERROR: File not found at {csv_path}")
         return

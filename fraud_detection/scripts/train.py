@@ -12,8 +12,8 @@ from model import FraudNet
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Load preprocessed data
-X_train, y_train = joblib.load("data/train.pkl")
-X_val, y_val = joblib.load("data/val.pkl")
+X_train, y_train = joblib.load("fraud_detection/data/train.pkl")
+X_val, y_val = joblib.load("fraud_detection/data/val.pkl")
 
 # Datasets and loaders
 train_ds = FraudDataset(X_train, y_train)
