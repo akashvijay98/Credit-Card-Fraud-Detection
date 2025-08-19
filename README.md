@@ -25,7 +25,7 @@ This project implements a machine learning solution for detecting fraudulent cre
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/akashvijay98/Credit-Card-Fraud-Detection.git
     cd credit-card-fraud-detection
     ```
 
